@@ -1,0 +1,235 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/tablehead"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="160dp"
+        android:text="First Year"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="201dp"
+        android:layout_height="33dp"
+
+        android:layout_below="@+id/tablehead"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginBottom="11dp"
+        android:text="First Semester"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="187dp"
+        android:layout_below="@+id/tablehead"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="53dp"
+        android:id="@+id/firsttable"
+        android:layout_marginEnd="12dp">
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="396dp"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="Computer Fundamentals and Aplications"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="Scociety and Technology"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="76dp"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="English I"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="Mathematics I"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="Digital Logic"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_below="@+id/firsttable"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="196dp"
+        android:text="Second Semester"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:id="@+id/secondtable"
+        android:layout_width="wrap_content"
+        android:layout_height="187dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="12dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="396dp"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="C programing"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="396dp"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="Financial Accounting"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="396dp"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="English II"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="396dp"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="Mathematics II"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="396dp"
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:text="Microprocessor and Computer Architecture"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/secondtable"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="107dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Go back" />
+
+
+</RelativeLayout>

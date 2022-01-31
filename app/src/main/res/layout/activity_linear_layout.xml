@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/lineartext"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="BCA SYllABUS"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="First Year" />
+
+    <Button android:id="@+id/second"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Second year"/>
+
+    <Button android:id="@+id/Third"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Third year"/>
+
+    <Button android:id="@+id/Fourth"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Fourth year"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="354dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Logout" />
+</RelativeLayout>
+
+
+</LinearLayout>
